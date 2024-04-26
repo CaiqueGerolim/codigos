@@ -1,0 +1,197 @@
+Identificar se numero é positivo ou negativo:
+
+
+a = int(input ("Digite um numero "))
+if a > 0:
+    print("O número é maior do que zero ")
+    elif a == 0
+        print("O seu numero é igual a zero ")
+else:
+    print("O numero é menor do que zero ")
+
+
+Genero do usuário:
+
+
+a = input("Qual seu genero? M ou F ")
+if a == "M" or a == "m":
+    print("Voce e homem ")
+elif a == "F" or a == "f":
+    print("Voce e mulher ")
+elif a == "civic" or a == "optmus prime":
+  print("vose é istranhu")
+else:
+    print("Genero invalido ")
+
+
+Letra vogal ou consoante
+
+
+a = input("Coloque uma letra ")
+if a == 'a'or a == 'e' or a == 'i' or a == 'o' or a == 'u' or a == 'A'or a == 'E' or a == 'I' or a == 'O' or a == 'U':
+  print("Você escolheu uma vogal ")
+else:
+    print("Você escolheu uma consoante ")
+
+
+Nota do aluno(a)
+
+
+nota1 = float(input("Qual a nota do aluno(a)? "))
+nota2 = float(input("Segunda nota do aluno(a)? "))
+media = (nota1 + nota2)/2
+if media >= 7 and a <= 10:
+  print("Aluno(a) aprovado(a) ")
+elif media < 7:
+  print("Aluno(a) reprovado(a) ")
+else:
+    print("Inválido")
+
+
+programa que le 3 numeros e vê o maior e menor
+
+
+a = input ("Escola seu primeiro numero ")
+b = input ("Escola seu segundo numero ")
+c = input ("Escola seu terceiro numero ")
+
+
+if b < c:
+    print("o terceiro numero é maior e o segundo é menor")
+elif b > c:
+    print("o segundo numero é maior e o terceiro é menor")
+elif a < b:
+  print("o segundo numero é maior e o primeiro é menor")
+elif a > b:
+  print("o primeiro numero é maior e o segundo é menor")
+  #marcacao2
+elif c < a:
+    print("o primeiro numero é maior e o terceiro é menor")
+elif c > a:
+    print("o terceiro numero é maior e o primeiro é menor")
+elif c < b:
+  print("o segundo numero é maior e o terceiro é menor")
+elif c > b:
+  print("o terceiro numero é maior e o segundo é menor")
+
+elif a == c and b:
+  print("numeros iguais")
+else:
+    print("inválido")
+
+
+programa que le 3 numeros e vê o maior
+
+
+a = input ("Escola seu primeiro numero ")
+b = input ("Escola seu segundo numero ")
+c = input ("Escola seu terceiro numero ")
+if a < b:
+    print("o segundo numero é maior")
+elif a < c:
+    print("o terceiro numero é maior")
+elif a > b:
+    print("o primeiro numero é maior")
+elif a > c:
+    print("o primeiro numero é maior")
+elif a == b and c:
+    print("numeros iguais")
+else:
+    print("inválido")
+
+
+comparacao de preco
+
+
+p1 = float(input("insira o preco do produto 1 "))
+p2 = float(input("insira o preco do produto 2 "))
+p3 = float(input("insira o preco do produto 3 "))
+if p1 > p2:
+    print(p2)
+elif p1 > p3:
+    print(p3)
+elif p2 > p1:
+    print(p1)
+elif p2 > p3:
+    print(p3)
+elif p3 > p1:
+    print(p1)
+elif p3 > p2:
+    print(p2)
+
+
+mostra numero em ordem decrescente
+
+
+n1 = int(input("digite o numero 1 "))
+n2 = int(input("digite o numero 2 "))
+n3 = int(input("digite o numero 3 "))
+if n1 > n2 and n2 > n3:
+    print(n1, n2, n3)
+elif n2 > n3 and n3 > n1:
+    print(n2, n3, n1)
+elif n3 > n1 and n1 > n2:
+    print(n3, n1, n2)
+elif n3 > n2 and n2 > n1:
+    print(n3, n2, n1) 
+elif n1 > n3 and n3 > n2:
+    print(n1, n3, n2)
+
+Pergunta o turno do aluno
+
+
+print("M - Manhã")
+print("T - Tarde")
+print("N - Noite")
+
+x = input("Qual seu turno escolar? ")
+
+if x == "N" or x == "n":
+    print("Boa Noite!!")
+elif x == "T" or x == "t":
+  print("Boa Tarde!!")
+elif x == "M" or x == "m":
+  print("Bom Dia!!")
+else:
+  print("Inválido")
+
+
+exibir dia da semana
+
+
+print ("1 = Seg.")
+print ("2 = Ter.")
+print ("3 = Qua.")
+print ("4 = Qui.")
+print ("5 = Sex.")
+print ("6 = Sáb.")
+print ("7 = Dom.")
+
+x = int(input("Escolha um dia da semana... "))
+if x == (1):
+    print("Segunda-Feira")
+elif x == (2):
+    print("Terça-Feira")
+elif x == (3):
+    print("Quarta-Feira")
+elif x == (4):
+    print("Quinta-Feira")
+elif x == (5):
+    print("Sexta-Feira(Dia de encher a cara)")
+elif x == (6):
+    print("Sábado (Fim de semana, dia de descansar, finalmente)")
+elif x == (7):
+    print("Domingo a noite...")
+else:
+    print("Valor invalido")
+
+
+
+
+
+
+
+
+
+
+

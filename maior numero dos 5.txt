@@ -1,0 +1,204 @@
+Ativ. 1
+
+maior_numero = 0
+for i in range(5):
+  numero = int(input("digite o numero: "))
+  if numero > maior_numero:
+    maior_numero = numero
+print("o maior numero e", maior_numero)
+
+Ativ. 2
+
+for count in range(1000, 2001):
+    if count % 11 == 2:
+        print(count)
+
+Ativ. 3
+
+soma = 0
+for i in range(5):
+    n = float(input(f"Digite o {i+1} numero "))
+    soma += n
+    media = soma/5
+
+print(f"A soma dos numeros é: {soma}")
+print(f"A media dos numeros é: {media}")
+
+Ativ. 4
+
+x = int(input("Escolha um numero "))
+
+for count in range (10):
+ r = count * x
+ print(f"{count} X {x} = {r}") 
+
+Ativ. 5
+
+for x in range(1,11):
+  for y in range(1,11):
+   z = x * y
+   print(f"{y} X {x} = {z}")
+
+Ativ. 6
+
+for i in range(21):
+    print(i)
+
+Ativ. 7
+
+for i in range(1, 51, 2):
+    print(i)
+
+Ativ. 8
+
+x = int(input("Escolha o primeiro numero "))
+y = int(input("Escolha o segundo numero "))
+for i in range(x, y):
+    print(i)
+
+ativ. 9
+
+lojab = 54000
+minhaloja = 0
+
+for i in range (5):
+
+  x = float(input("digite seu faturamento "))
+
+faturamentoT = minhaloja + x
+
+if faturamentoT > lojab:
+    diferenca = faturamentoT - lojab
+    print(f"Faturamento foi maior do que o da loja B por {diferenca} Reais")
+elif faturamentoT < lojab:
+    print("O valor foi menor do que o da loja B...")
+elif faturamentoT == lojab:
+   print("Loja B é igual ao nosso faturamento")
+else:
+   print("Inválido....")
+
+ativ. 10
+
+par = 0
+impar = 0
+
+for i in range(10):
+    a = int(input(f"Digite o {i+1} numero "))
+    if a %2 == 0:
+        par +=1
+
+    else:
+        impar +=1
+
+print(f"Os numeros impares são {impar} ")
+print(f"Os numeros pares são {par} ")
+
+Ativ. 11
+
+salario = float(input("Digite o salario inicial do funcionario: "))
+percentual = 0.015
+
+for i in range(1996, 2025):
+    aumento = salario + percentual
+    salario += aumento
+    percentual *= 2
+    print(f"Salario em {i} = {salario:.2f}")
+
+Ativ. 12
+
+for i in range(9999):
+ nota = int(input("Escolha uma nota: "))
+ if nota <= 10 and nota >= 0:
+   print("Obrigado por opinar =)")
+   break
+ elif nota < 10 or nota > 0:
+  print("Inválido")
+
+Ativ. 13
+
+
+valor = float(input("Digite o valor da compra "))
+contagem = 1
+
+if valor >= 600 and contagem:
+    reduzido = valor - 500
+    if reduzido >= 100 or contagem <= 24:
+     for x in range(999):
+        contagem += 1
+        reduzido -= 100
+        if reduzido < 100 or contagem == 24:
+         break
+
+porcentagem = contagem/100
+desconto = valor * porcentagem
+final = valor - desconto
+print(f"O produto foi de R${valor:.2f} ficara a partir de R${final} com {contagem:.0f}% de desconto")
+
+Ativ. 14
+
+quinze = 0
+dezesseis_trinta = 0
+trinta_e_um = 0
+quarenta_seis = 0
+idoso = 0
+
+for i in range(15):
+    idade = int(input("Quantos anos você tem? "))
+    if idade <= 15:
+        quinze += 1
+    elif idade >= 16 and idade <= 30:
+        dezesseis_trinta += 1
+    elif idade >= 31 and idade <= 45:
+        trinta_e_um += 1
+    elif idade >= 46 and idade <= 60:
+        quarenta_seis += 1
+    else:
+        idoso += 1
+
+total = quinze + dezesseis_trinta + trinta_e_um + quarenta_seis + idoso
+total_15 = (quinze/total) * 100
+total_61 = (idoso/total) * 100 
+
+print(f"até 15 anos {quinze}")
+print(f"16/30 {dezesseis_trinta}")
+print(f"31/45 {trinta_e_um}")
+print(f"46/60 {quarenta_seis}")
+print(f"acima de 61 {idoso}")
+
+print(f"Porcentagem 15 anos: {total_15}")
+print(f"Porcentagem 61 anos: {total_61}")
+
+Ativ. 15
+
+x = int(input("Coloque a base "))
+y = int(input("Coloque o expoente "))
+
+for i in range(1):
+
+  total = x ** y
+
+print(f"O resultado é: {total}")
+
+Ativ. 16
+
+
+n = int(input("Escolha um numero: "))
+
+if n == 1 or n == 2:
+    print(f"{n} é primo e foi feito divisão para descubrir")
+elif n % 2 == 0:
+  print(f"{n} não é primo e foi usado divisão para descubrir")
+else:
+    contador = 1
+    primo = True
+    for i in range(3, n, 2):
+        contador += 1
+        if n % i == 0:
+            primo = False
+            break
+    if primo:
+        print(f"O {n} é primo e foram feitas {contador} divisões para descubrir isso")
+    else:
+        print(f"{n} não é primo e foram feitas {contador} divisões para descubrir isso")
+
+

@@ -1,0 +1,58 @@
+Programa "TechShop"
+
+Var
+nome, endereco, complemento, marcadocomputador:caractere
+Idade, Tel, CEP, CPF, opcao, formatar,virateaqui, confirmacao:inteiro
+
+Inicio
+escreval("*****************************************************************")
+escreval("*                                                               *")
+escreval("*                           Bem-vindo                           *")
+escreval("*                               Ao                              *")
+escreval("*                            TechShop                           *")
+escreval("*****************************************************************")
+escreval("*                                                               *")
+escreval("*                          1-Manutencao                         *")
+escreval("*                          2-Loja                               *")
+escreval("*                          3-Sair                               *")
+escreval("*                                                               *")
+escreval("*****************************************************************")
+escreva("Deseja acessar qual area?")
+leia(opcao)
+se opcao == 1 ENTAO
+escreva("Seu nome ")
+leia (Nome)
+escreva("Endereco ")
+leia(Endereco )
+escreva("Qual a marca do computador / notebook")
+leia(marcadocomputador)
+escreva("formatar seu computador / notebook?")
+leia(formatar)
+escreva("Trazer o computador para loja?")
+leia(virateaqui)
+escreva("Tem certeza? s/n")
+leia(confirmacao)
+se opcao == s entao
+escreva("Aguarde, em até 3 horas um de nossos profissionais estará aí...")
+senao
+senao se opcao == 2
+escreval("*****************************************************************")
+escreval("*                                                               *")
+escreval("*                      1-Mouse fd                               *")
+escreval("*                      2-Teclado mt bom                         *")
+escreval("*                      3-Fone dahora                            *")
+escreval("*                      4-Microfone de cualidadi                 *")
+escreval("*                      5-Monitor full hd da xuxa                *")
+escreval("*                      6-Computador da xuxa                     *")
+escreval("*                      7-picanha                                *")
+escreval("*                      8-Sair                                   *")
+escreval("*                                                               *")
+escreval("*****************************************************************")
+escreva("Seu nome ")
+leia (Nome)
+escreva("Endereco ")
+leia(Endereco )
+escreva("Complemento")
+leia(Complemento)
+senao
+fim
